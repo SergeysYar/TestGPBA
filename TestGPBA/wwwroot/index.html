@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers and Suppliers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Offers and Suppliers</h1>
+
+        <!-- Популярные поставщики -->
+        <div id="popular-suppliers" class="block">
+            <h2>Popular Suppliers</h2>
+            <ul id="supplier-list">
+                <!-- Динамически заполняется через JavaScript -->
+            </ul>
+        </div>
+
+        <!-- Строка поиска -->
+        <div id="search-block" class="block">
+            <h2>Search Offers</h2>
+            <input type="text" id="search-input" placeholder="Search by Brand, Model, or Supplier">
+            <button id="search-button">Search</button>
+        </div>
+
+        <!-- Список офферов -->
+        <div id="offers-block" class="block">
+            <h2>Offers</h2>
+            <ul id="offer-list">
+                <!-- Динамически заполняется через JavaScript -->
+            </ul>
+            <p id="offer-count">Total Offers: 0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
